@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /proyecto.html
+Disallow: /proyecto-en.html
+
+Sitemap: https://www.ofarquitectos.com/sitemap.xml
