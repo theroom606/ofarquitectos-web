@@ -27,3 +27,5 @@
 /news/* /premios.html 301
 /post/* /obras.html 301
 /proyecto.html /obras.html 301
+/proyectos/centro-guadal /proyectos/casona-guadal/ 301
+/en/projects/centro-guadal /en/projects/casona-guadal/ 301

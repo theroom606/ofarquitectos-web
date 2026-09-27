@@ -108,12 +108,16 @@
   "en": "/en/projects/udla-providencia/"
  },
  "guadal-mixto": {
-  "es": "/proyectos/centro-guadal/",
-  "en": "/en/projects/centro-guadal/"
+  "es": "/proyectos/casona-guadal/",
+  "en": "/en/projects/casona-guadal/"
  },
  "carrere": {
   "es": "/proyectos/casa-carrere/",
   "en": "/en/projects/casa-carrere/"
+ },
+ "galicia": {
+  "es": "/proyectos/casa-en-galicia/",
+  "en": "/en/projects/casa-en-galicia/"
  },
  "pdr-cordillera": {
   "es": "/proyectos/parque-del-recuerdo-parque-cordillera/",
