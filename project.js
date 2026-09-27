@@ -232,6 +232,12 @@ englishProjects['udla-conce'].chapters = [
     ['auditorio-2026', 'Campus auditorium.']
   ]]
 ];
+// Chagual: cubierta limpia en las dos tomas de apertura; se evita repetir la portada en el capítulo de acceso.
+for (const version of [projects.chagual, englishProjects.chagual]) {
+  version.image = 'chagual-editorial-0-roof-clean.webp';
+  version.chapters[0][2][0][0] = 'editorial-1-roof-stop-clean';
+  version.chapters[1][2] = version.chapters[1][2].filter(([name]) => name !== 'editorial-2');
+}
 const key=new URLSearchParams(location.search).get('p');const p=(english?englishProjects:projects)[key];
 if(window.OF_SLUGS&&OF_SLUGS[key]){location.replace(OF_SLUGS[key][english?'en':'es']);}
 const languageLink=document.getElementById('language-link');
