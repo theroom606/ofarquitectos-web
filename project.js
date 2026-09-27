@@ -180,6 +180,11 @@ projects['ana-luisa'].chapters[2][1] = 'El revestimiento metálico de tono óxid
 projects['ana-luisa'].chapters[2][2][0][1] = 'Revestimiento metálico y ladrillo.';
 englishProjects['ana-luisa'].chapters[2][1] = 'The rust-toned metal cladding relates to the existing brick wall. The glazed base keeps a direct connection between the studio and the courtyard.';
 englishProjects['ana-luisa'].chapters[2][2][0][1] = 'Metal cladding and brick.';
+// Casa Pullay: retoque puntual de la bajada y el colector en portada y cierre; originales conservados.
+for (const data of [projects, englishProjects]) {
+  data.pullay.image = 'pullay-editorial-0-clean.webp';
+  data.pullay.chapters[3][2][0][0] = 'editorial-5-clean';
+}
 const key=new URLSearchParams(location.search).get('p');const p=(english?englishProjects:projects)[key];
 if(window.OF_SLUGS&&OF_SLUGS[key]){location.replace(OF_SLUGS[key][english?'en':'es']);}
 const languageLink=document.getElementById('language-link');
