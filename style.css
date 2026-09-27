@@ -101,6 +101,7 @@ footer a+a{margin-left:0}
 .partner-block ul{list-style:none;margin:0;padding:0;font-size:14px;line-height:1.5}
 .partner-block li+li{margin-top:10px}
 .partners-page>.studio-awards-link{margin-top:10px}
+.partner-talks{border-top:1px solid var(--ink);padding:34px 0 40px}.partner-talks h2{font-size:clamp(24px,2.6vw,36px);font-weight:400;letter-spacing:-.03em;margin:0 0 8px}.partner-talks-note{font-size:14px;color:var(--muted);margin:0 0 20px}.partner-talks ul{list-style:none;margin:0;padding:0;max-width:760px;font-size:15px;line-height:1.5}.partner-talks li+li{margin-top:12px}
 @media(max-width:800px){.partners-page .partner-profile{grid-template-columns:1fr;padding-bottom:45px}.partner-blocks{grid-column:1;grid-template-columns:1fr}.partner-bio{font-size:17px}}
 .studio-bim-link{margin-left:28px}
 .bim-video{margin:50px 0 70px}.bim-video video{width:100%;display:block;background:#1f2a2e}
