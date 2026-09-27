@@ -114,9 +114,9 @@ footer a+a{margin-left:0}
 .bim-page .partner-profile{grid-template-columns:1fr}.bim-page .partner-blocks{grid-column:1}.bim-page .partner-profile header{margin-bottom:14px}
 
 /* Home masthead: the original joined OF mark, without its surrounding circle. */
-.cover-title h1{align-items:flex-end;gap:2.6vw}
+.cover-title h1{align-items:flex-end;gap:0}
 .cover-title .of-word{display:block;flex:none;width:clamp(170px,18vw,295px);line-height:0}
 .cover-title .of-word img{display:block;width:100%;height:auto}
 .cover-title .architects-word{line-height:.82}
 @media(max-width:1000px){.cover-title .of-word{width:19vw}}
-@media(max-width:600px){.cover-title h1{gap:4vw}.cover-title .of-word{width:36vw}.cover-title .architects-word{font-size:11.6vw}}
+@media(max-width:600px){.cover-title h1{gap:0;justify-content:center}.cover-title .of-word{width:36vw}.cover-title .architects-word{font-size:11.6vw}}
