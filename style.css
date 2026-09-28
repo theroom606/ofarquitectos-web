@@ -110,6 +110,17 @@ footer a+a{margin-left:0}
 .bim-page .partner-profile{padding-bottom:50px}.bim-lead{font-size:15px;line-height:1.6;color:var(--muted);margin-top:22px}.bim-lead a{border-bottom:1px solid currentColor}
 .patag-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px 32px;margin:60px 0 50px}.patag-card .image-wrap{aspect-ratio:1.45}.patag-card h2{font-size:23px;font-weight:400;letter-spacing:-.6px;margin-top:18px}.patag-card span{display:block;font-size:13px;color:var(--muted);margin-top:8px}.patag-card:hover img{transform:scale(1.025)}
 .archive-filters .filter-sep{width:1px;background:var(--line);margin:8px 0}
+.archive-search{display:flex;align-items:baseline;gap:24px;max-width:720px;margin-top:42px;padding:0 0 12px;border-bottom:1px solid var(--ink)}
+.archive-search:focus-within{outline:2px solid #777900;outline-offset:5px}
+.archive-search label{flex:0 0 145px;font-size:14px}
+.archive-search input{min-width:0;flex:1;border:0;outline:0;background:none;color:var(--ink);font:inherit;font-size:21px;letter-spacing:-.02em;-webkit-appearance:none;appearance:none}
+.archive-search input::placeholder{color:var(--muted);opacity:1}
+.archive-search input::-webkit-search-cancel-button{-webkit-appearance:none}
+.archive-search-clear{border:0;background:none;color:var(--ink);font:inherit;font-size:25px;line-height:1;cursor:pointer;padding:0 3px}
+.archive-search-clear[hidden],.archive-empty[hidden]{display:none}
+.archive-search+.archive-filters{margin-top:27px}
+.archive-empty{padding:25px 0 70px;color:var(--muted);font-size:20px;line-height:1.4}
+@media(max-width:600px){.archive-search{display:grid;grid-template-columns:1fr auto;gap:14px 8px;margin-top:32px}.archive-search label{grid-column:1/-1}.archive-search input{width:100%;font-size:19px}}
 @media(max-width:800px){.patag-grid{grid-template-columns:1fr;gap:40px}.studio-awards-link{display:flex;margin:10px 0}.studio-socios-link{margin-right:0}.studio-bim-link{margin-left:0}}
 .bim-page .partner-profile{grid-template-columns:1fr}.bim-page .partner-blocks{grid-column:1}.bim-page .partner-profile header{margin-bottom:14px}
 
