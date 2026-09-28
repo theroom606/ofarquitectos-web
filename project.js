@@ -486,6 +486,32 @@ englishProjects.caliterra={
   nextTitle:"Casona Guadal"
 };
 
+// VSPT: la sala de reuniones como wine bar organiza la secuencia editorial.
+Object.assign(projects.vspt, {
+  headline: 'Una sala de reuniones como wine bar.',
+  sub: 'El encuentro organiza la oficina.',
+  text: 'Las oficinas de Viña San Pedro Tarapacá se organizan alrededor de una sala de reuniones concebida como wine bar. La mesa y la barra permiten celebrar reuniones de trabajo y eventos privados para quienes trabajan aquí, en un ambiente informal. En torno a este lugar de encuentro se disponen los espacios de trabajo, alternando áreas abiertas y recintos de gerencia. Los núcleos de servicio y los elementos estructurales de la planta libre se aprovechan para formar un espesor de archivo revestido en madera, donde se guarda la documentación que debe estar siempre a mano. El espacio compartido da unidad a la oficina y ocupa un lugar central en su vida cotidiana.',
+  image: 'vspt-editorial-1.webp',
+  alt: 'Mesa de reuniones del wine bar de las oficinas Viña San Pedro Tarapacá',
+  gallery: [
+    ['vspt-editorial-0.webp', 'Barra y mesa del wine bar'],
+    ['vspt-editorial-2.webp', 'Archivo revestido en madera junto a la circulación'],
+    ['vspt-editorial-3.webp', 'Área de trabajo abierta junto a los recintos de madera']
+  ]
+});
+Object.assign(englishProjects.vspt, {
+  headline: 'A meeting room conceived as a wine bar.',
+  sub: 'A shared place at the heart of the office.',
+  text: 'The Viña San Pedro Tarapacá offices are organised around a meeting room conceived as a wine bar. Its table and bar accommodate work meetings as well as private events for the people who work here, in an informal setting. Open work areas and management offices alternate around this shared space. Service cores and structural elements within the open floor are used to form a timber-clad band of storage for documents that need to remain close at hand. The shared space gives the office a common centre for everyday life.',
+  image: 'vspt-editorial-1.webp',
+  alt: 'Meeting table in the wine bar at the Viña San Pedro Tarapacá offices',
+  gallery: [
+    ['vspt-editorial-0.webp', 'Bar and table in the wine bar'],
+    ['vspt-editorial-2.webp', 'Timber-clad storage along the circulation'],
+    ['vspt-editorial-3.webp', 'Open work area beside the timber-clad rooms']
+  ]
+});
+
 const key=new URLSearchParams(location.search).get('p');const p=(english?englishProjects:projects)[key];
 if(window.OF_SLUGS&&OF_SLUGS[key]){location.replace(OF_SLUGS[key][english?'en':'es']);}
 const languageLink=document.getElementById('language-link');
