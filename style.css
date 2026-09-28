@@ -20,7 +20,7 @@
 
 /* Approved transparent seal: cross the rule without masking it. */
 .header{position:relative;display:grid;grid-template-columns:1fr auto 1fr;--seal-size:112px}
-.header .brand{position:absolute;left:calc(var(--pad) - 6px);bottom:calc(var(--seal-size) / -3);width:var(--seal-size);height:var(--seal-size);z-index:1}
+.header .brand{position:absolute;left:calc(var(--pad) - 6px);bottom:calc(var(--seal-size) / -3 + 4px);width:var(--seal-size);height:var(--seal-size);z-index:1}
 .header .brand img{width:100%;height:100%;max-width:none}
 .header>nav{grid-column:2}
 .header>.header-tools{grid-column:3;justify-self:end}
@@ -57,8 +57,8 @@
 /* Vector arrows remain monochrome on iOS as well as desktop. */
 .arrow-icon{display:inline-block;width:1em;height:1em;vertical-align:-.12em;flex-shrink:0}
 
-@media(max-width:600px){.header .brand{bottom:calc(var(--seal-size) / -3 + 6px)}}
-@media(min-width:801px){.header:has(+ .detail) .brand{bottom:calc(var(--seal-size) / -3 + 6px)}}
+@media(max-width:600px){.header .brand{bottom:calc(var(--seal-size) / -3 + 10px)}}
+@media(min-width:801px){.header:has(+ .detail) .brand{bottom:calc(var(--seal-size) / -3 + 10px)}}
 
 /* Studio experience and team portrait. */
 .studio-experience{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:45px;align-items:center;margin-top:20px}
