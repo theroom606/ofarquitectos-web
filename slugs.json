@@ -154,5 +154,13 @@
  "andes-iron": {
   "es": "/proyectos/oficinas-andes-iron/",
   "en": "/en/projects/oficinas-andes-iron/"
+ },
+ "pdr-hda": {
+  "es": "/proyectos/oficinas-parque-del-recuerdo-hernando-de-aguirre/",
+  "en": "/en/projects/oficinas-parque-del-recuerdo-hernando-de-aguirre/"
+ },
+ "pdr-ossa": {
+  "es": "/proyectos/oficinas-parque-del-recuerdo-av-ossa/",
+  "en": "/en/projects/oficinas-parque-del-recuerdo-av-ossa/"
  }
 }

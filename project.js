@@ -240,6 +240,188 @@ for (const version of [projects.chagual, englishProjects.chagual]) {
   version.chapters[0][2][0][0] = 'editorial-1-roof-stop-clean';
   version.chapters[1][2] = version.chapters[1][2].filter(([name]) => name !== 'editorial-2');
 }
+// Oficinas Parque del Recuerdo: fotografías de obra construida y créditos verificados.
+Object.assign(projects,{
+  "pdr-hda": {
+    "title": "Oficinas Parque del Recuerdo, Hernando de Aguirre",
+    "headline": "Un piso para trabajar y encontrarse.",
+    "place": "Providencia, Santiago",
+    "type": "Espacios de trabajo / Obra construida",
+    "image": "pdr-hda-editorial-0-vertical.webp",
+    "alt": "Área común de las oficinas Parque del Recuerdo en Hernando de Aguirre, con cielo de madera y salas vidriadas",
+    "sub": "Un espacio común organiza la oficina.",
+    "text": "La habilitación del séptimo piso reúne áreas de trabajo, salas de reunión y recintos de apoyo alrededor de una zona común. Mamparas de vidrio mantienen las relaciones visuales entre los espacios; madera, cielos oscuros y mobiliario diferencian los lugares de encuentro y de trabajo.",
+    "facts": [
+      [
+        "Arquitectura",
+        "OF Arquitectos"
+      ],
+      [
+        "Año",
+        "2022"
+      ],
+      [
+        "Programa",
+        "Habilitación de oficinas"
+      ],
+      [
+        "Fotografía",
+        "Francisco Cepeda"
+      ]
+    ],
+    "gallery": [
+      [
+        "pdr-hda-editorial-5-vertical.webp",
+        "Recorrido junto a los recintos de trabajo"
+      ],
+      [
+        "pdr-hda-editorial-6-vertical.webp",
+        "Sala de reunión y cerramientos vidriados"
+      ],
+      [
+        "pdr-hda-editorial-2-vertical.webp",
+        "Sala de reuniones hacia la ventana"
+      ]
+    ],
+    "next": "pdr-ossa",
+    "nextTitle": "Oficinas Parque del Recuerdo, Av. Ossa"
+  },
+  "pdr-ossa": {
+    "title": "Oficinas Parque del Recuerdo, Av. Ossa",
+    "headline": "Madera, vidrio y recorrido.",
+    "place": "La Reina, Santiago",
+    "type": "Espacios de trabajo / Obra construida",
+    "image": "pdr-ossa-editorial-0-vertical.webp",
+    "alt": "Sala de reuniones de las oficinas Parque del Recuerdo en Av. Ossa 235",
+    "sub": "Una habilitación interior en La Reina.",
+    "text": "En Av. Ossa 235, salas de trabajo y reunión se conectan mediante un recorrido revestido en madera. Las mamparas de vidrio dejan pasar la luz y hacen visibles los espacios contiguos; la madera y los cielos de instalaciones a la vista definen el carácter de la oficina.",
+    "facts": [
+      [
+        "Arquitectura",
+        "OF Arquitectos"
+      ],
+      [
+        "Año",
+        "2023"
+      ],
+      [
+        "Programa",
+        "Habilitación de oficinas"
+      ],
+      [
+        "Fotografía",
+        "Guillermo Biondo"
+      ]
+    ],
+    "galleryLayout": "pair",
+    "gallery": [
+      [
+        "pdr-ossa-editorial-1-vertical.webp",
+        "Corredor revestido en madera"
+      ],
+      [
+        "pdr-ossa-editorial-2-vertical.webp",
+        "Circulación y salas vidriadas"
+      ]
+    ],
+    "next": "pdr-cordillera",
+    "nextTitle": "Parque del Recuerdo, Parque Cordillera"
+  }
+});
+Object.assign(englishProjects,{
+  "pdr-hda": {
+    "title": "Parque del Recuerdo offices, Hernando de Aguirre",
+    "headline": "A floor for work and encounter.",
+    "place": "Providencia, Santiago",
+    "type": "Workspace / Built",
+    "image": "pdr-hda-editorial-0-vertical.webp",
+    "alt": "Shared area of the Parque del Recuerdo offices on Hernando de Aguirre, with a timber ceiling and glazed rooms",
+    "sub": "A shared space organises the office.",
+    "text": "The seventh-floor fit-out brings together work areas, meeting rooms and support spaces around a shared zone. Glass partitions maintain visual connections; timber, dark ceilings and furniture distinguish places for meeting and working.",
+    "facts": [
+      [
+        "Architecture",
+        "OF Arquitectos"
+      ],
+      [
+        "Year",
+        "2022"
+      ],
+      [
+        "Programme",
+        "Office fit-out"
+      ],
+      [
+        "Photography",
+        "Francisco Cepeda"
+      ]
+    ],
+    "gallery": [
+      [
+        "pdr-hda-editorial-5-vertical.webp",
+        "Circulation beside the work areas"
+      ],
+      [
+        "pdr-hda-editorial-6-vertical.webp",
+        "Meeting room and glazed partitions"
+      ],
+      [
+        "pdr-hda-editorial-2-vertical.webp",
+        "Meeting room facing the window"
+      ]
+    ],
+    "next": "pdr-ossa",
+    "nextTitle": "Parque del Recuerdo offices, Av. Ossa"
+  },
+  "pdr-ossa": {
+    "title": "Parque del Recuerdo offices, Av. Ossa",
+    "headline": "Timber, glass and circulation.",
+    "place": "La Reina, Santiago",
+    "type": "Workspace / Built",
+    "image": "pdr-ossa-editorial-0-vertical.webp",
+    "alt": "Meeting room at the Parque del Recuerdo offices on Av. Ossa 235",
+    "sub": "An office fit-out in La Reina.",
+    "text": "At Av. Ossa 235, work and meeting rooms are linked by timber-lined circulation. Glass partitions let daylight pass through and reveal adjacent spaces; timber and exposed ceiling services give the office its character.",
+    "facts": [
+      [
+        "Architecture",
+        "OF Arquitectos"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Programme",
+        "Office fit-out"
+      ],
+      [
+        "Photography",
+        "Guillermo Biondo"
+      ]
+    ],
+    "galleryLayout": "pair",
+    "gallery": [
+      [
+        "pdr-ossa-editorial-1-vertical.webp",
+        "Timber-lined corridor"
+      ],
+      [
+        "pdr-ossa-editorial-2-vertical.webp",
+        "Circulation and glazed rooms"
+      ]
+    ],
+    "next": "pdr-cordillera",
+    "nextTitle": "Parque del Recuerdo, Parque Cordillera"
+  }
+});
+
+// UNAB Viña: alternar visualizaciones con fotografías reales de avance de septiembre de 2026.
+projects.unab.facts=[...projects.unab.facts.filter(([label])=>label!=="Imágenes"),["Visualizaciones","Proyecto"],["Fotografías de obra","Leonardo Gaete · septiembre de 2026"]];
+englishProjects.unab.facts=[...englishProjects.unab.facts.filter(([label])=>label!=="Images"),["Visualisations","Project"],["Construction photography","Leonardo Gaete · September 2026"]];
+projects.unab.gallery=[["unab-vina-obra-2026-1.webp","Obra en ejecución, septiembre de 2026: volúmenes, cubiertas y ladera"],["unab-vina-2026-aerea.webp","Vista aérea del campus proyectado"],["unab-vina-2026-llegada.webp","Llegada al campus proyectado"],["unab-vina-2026-circulacion.webp","Circulación exterior proyectada"],["unab-vina-obra-2026-2.webp","Obra en ejecución, septiembre de 2026: campus y ciudad hacia la bahía"],["unab-vina-2026-cubierta.webp","Cubierta habitable proyectada hacia la bahía"],["unab-vina-2026-canchas.webp","Canchas proyectadas en cubierta"]];
+englishProjects.unab.gallery=[["unab-vina-obra-2026-1.webp","Construction in progress, September 2026: volumes, roofs and hillside"],["unab-vina-2026-aerea.webp","Aerial view of the proposed campus"],["unab-vina-2026-llegada.webp","Proposed arrival at the campus"],["unab-vina-2026-circulacion.webp","Proposed outdoor circulation"],["unab-vina-obra-2026-2.webp","Construction in progress, September 2026: campus and city towards the bay"],["unab-vina-2026-cubierta.webp","Proposed roof terrace towards the bay"],["unab-vina-2026-canchas.webp","Proposed rooftop courts"]];
+
 const key=new URLSearchParams(location.search).get('p');const p=(english?englishProjects:projects)[key];
 if(window.OF_SLUGS&&OF_SLUGS[key]){location.replace(OF_SLUGS[key][english?'en':'es']);}
 const languageLink=document.getElementById('language-link');

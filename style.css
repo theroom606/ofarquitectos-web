@@ -120,3 +120,7 @@ footer a+a{margin-left:0}
 .cover-title .architects-word{line-height:.82}
 @media(max-width:1000px){.cover-title .of-word{width:19vw}}
 @media(max-width:600px){.cover-title h1{gap:0;justify-content:center}.cover-title .of-word{width:36vw}.cover-title .architects-word{font-size:11.6vw}}
+
+/* Two portrait photographs of the Av. Ossa offices read as one diptych. */
+.gallery-pair figure:first-child{grid-column:auto}
+@media(max-width:800px){.gallery-pair figure:first-child{grid-column:1}}
