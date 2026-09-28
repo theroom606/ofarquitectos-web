@@ -166,5 +166,9 @@
  "cap-piso-tipo": {
   "es": "/proyectos/nuevas-oficinas-cap/",
   "en": "/en/projects/nuevas-oficinas-cap/"
+ },
+ "caliterra": {
+  "es": "/proyectos/pabellon-vina-caliterra/",
+  "en": "/en/projects/pabellon-vina-caliterra/"
  }
 }
