@@ -597,6 +597,36 @@ englishProjects.aysen.facts.splice(1, 0, ["Designed area", "7,500 m²"]);
 projects.museo.facts.splice(1, 0, ["Superficie proyectada", "1.200 m²"]);
 englishProjects.museo.facts.splice(1, 0, ["Designed area", "1,200 m²"]);
 
+// Casa Mallarauco: memoria y ficha técnica confirmadas por Francisco, 29-09-2026.
+Object.assign(projects.mallarauco, {
+  place: "Valle de Mallarauco, Región Metropolitana",
+  headline: "Cuatro pabellones entre secuoyas.",
+  type: "Vivienda / Obra construida",
+  sub: "La casa ocupa los claros del bosque sin talar sus árboles centenarios.",
+  text: "Un bosque de secuoyas plantado hace más de un siglo ocupa el terreno triangular reservado para esta casa de fin de semana. El encargo exigía conservar todos los árboles. Cuatro pabellones se instalan en los claros y una pasarela exterior los enlaza sin deshacer la estructura del bosque.",
+  facts: [["Arquitectura", "Francisco Cepeda + Álvaro Ramírez"], ["Mandante", "Privado"], ["Encargo", "Directo"], ["Programa", "Casa de fin de semana · cuatro pabellones, piscina y sauna"], ["Superficie construida", "450 m²"], ["Año del proyecto", "2016"], ["Construcción", "2017"], ["Estructura", "Madera laminada prefabricada"], ["Revestimiento", "Tabla vertical de madera teñida negra"], ["Cubierta", "Plancha microondulada prepintada negra"], ["Fundaciones", "Pilotes en dormitorios · radieres de hormigón en espacios comunes"], ["Constructora", "Constructora Juan Mira"], ["Fotografía", "Pablo Casals"]],
+  chapters: [
+    ["La casa entre los árboles", "El pabellón principal reúne estar, comedor, cocina y dormitorios. Frente a él, el claro orientado al norte recibe la piscina y un pequeño sauna. Los demás cuerpos se disponen a distintas distancias entre las secuoyas; la pasarela convierte el desplazamiento entre ellos en una experiencia del bosque.", [["editorial-1", "Un pabellón de madera oscura entre las secuoyas"], ["editorial-2", "El recorrido exterior atraviesa los claros del bosque"]]],
+    ["Estar juntos, vivir separados", "El pabellón de invitados permite alojar a distintas familias; sus camarotes y altillo dan a los niños un espacio propio. El quincho, más apartado de los dormitorios, acoge reuniones prolongadas. Un cuarto pabellón, destinado al cuidador, ocupa una posición independiente.", [["editorial-3", "Escalera interior junto al bosque"], ["editorial-4", "Dormitorio con camarotes y vista a los árboles"], ["editorial-5", "Mesa y parrilla del quincho, abierto al bosque"]]],
+    ["Tocar el suelo lo necesario", "Los dormitorios se elevan sobre pilotes; los espacios de reunión, vinculados al exterior, se apoyan en radieres de hormigón. La madera laminada prefabricada permitió acortar el montaje entre los árboles. El revestimiento negro deja que las secuoyas ocupen el primer plano; en las cubiertas exteriores sin canaletas, la lluvia cae directamente al terreno y se hace oír.", [["editorial-6", "La pasarela enlaza los pabellones"], ["editorial-7", "El volumen se eleva entre el sotobosque"], ["editorial-8", "Un pabellón iluminado al anochecer"]]]
+  ]
+});
+delete projects.mallarauco.gallery;
+Object.assign(englishProjects.mallarauco, {
+  place: "Mallarauco Valley, Santiago Metropolitan Region",
+  headline: "Four pavilions among redwoods.",
+  type: "Private house / Built",
+  sub: "The house occupies openings in the woodland without felling its century-old trees.",
+  text: "A grove of redwoods planted over a century ago occupies the triangular site reserved for this weekend house. Preserving every tree was a condition of the commission. Four pavilions settle into openings in the grove, linked by an outdoor walkway that leaves the woodland structure intact.",
+  facts: [["Architecture", "Francisco Cepeda + Álvaro Ramírez"], ["Client", "Private"], ["Commission", "Direct"], ["Programme", "Weekend house · four pavilions, pool and sauna"], ["Built area", "450 m²"], ["Design year", "2016"], ["Construction", "2017"], ["Structure", "Prefabricated laminated timber"], ["Cladding", "Black-stained vertical timber boards"], ["Roof", "Black prepainted micro-corrugated metal"], ["Foundations", "Piles beneath bedrooms · concrete slabs in communal areas"], ["Contractor", "Constructora Juan Mira"], ["Photography", "Pablo Casals"]],
+  chapters: [
+    ["A house among the trees", "The main pavilion contains the living room, dining room, kitchen and bedrooms. In front of it, a north-facing clearing accommodates the pool and a small sauna. The other buildings stand at different distances among the redwoods; the walkway makes moving between them an experience of the grove.", [["editorial-1", "A dark timber pavilion among the redwoods"], ["editorial-2", "The outdoor route passes through clearings in the grove"]]],
+    ["Together, with room to separate", "The guest pavilion accommodates different families; bunk beds and a loft give children a place of their own. Set farther from the bedrooms, the barbecue pavilion allows gatherings to continue late into the day. A fourth pavilion for the caretaker stands apart.", [["editorial-3", "Interior stair beside the grove"], ["editorial-4", "Bedroom with bunks and a view of the trees"], ["editorial-5", "Table and grill in the barbecue pavilion, open to the grove"]]],
+    ["Touching the ground only where needed", "Bedrooms rise on piles, while gathering spaces that connect directly to the outdoors rest on concrete slabs. Prefabricated laminated timber shortened assembly among the trees. Black cladding lets the redwoods occupy the foreground; on exposed roofs without gutters, rain falls straight to the ground and becomes audible.", [["editorial-6", "The walkway links the pavilions"], ["editorial-7", "A volume raised above the woodland floor"], ["editorial-8", "A pavilion illuminated at dusk"]]]
+  ]
+});
+delete englishProjects.mallarauco.gallery;
+
 const key=new URLSearchParams(location.search).get('p');const p=(english?englishProjects:projects)[key];
 if(window.OF_SLUGS&&OF_SLUGS[key]){location.replace(OF_SLUGS[key][english?'en':'es']);}
 const languageLink=document.getElementById('language-link');
